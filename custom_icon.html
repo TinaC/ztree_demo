@@ -37,6 +37,7 @@
 		];
 
 		$(document).ready(function(){
+			// 1.用于展现zTree的DOM容器，2.zTree的配置数据，3.zTree的节点数据
 			$.fn.zTree.init($("#treeDemo"), setting, zNodes);
 		});
 		//-->
@@ -48,6 +49,7 @@
 <h6>[ 文件路径: core/custom_icon.html ]</h6>
 <div class="content_wrap">
 	<div class="zTreeDemoBackground left">
+		<!-- zTree的容器（class="ztree"） -->
 		<ul id="treeDemo" class="ztree"></ul>
 	</div>
 	<div class="right">
